@@ -1,0 +1,22 @@
+{
+  "name": "sodium-chloride-native",
+  "description": "sodium-native wrapped with chloride API",
+  "version": "1.1.0",
+  "homepage": "https://github.com/staltz/sodium-chloride-native",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/staltz/sodium-chloride-native.git"
+  },
+  "dependencies": {
+    "sodium-native": "~1.10.0",
+    "sodium-chloride": "~1.1.0"
+  },
+  "devDependencies": {
+    "chloride-test": "^1.2.2"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "author": "Andre Staltz <contact@staltz.com> (http://staltz.com)",
+  "license": "MIT"
+}
